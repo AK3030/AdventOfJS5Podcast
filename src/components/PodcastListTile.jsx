@@ -1,5 +1,5 @@
 import episodesList from "../Episodes";
-import {useState} from 'React';
+import { useState } from 'react';
 
 function PodcastListTile({title}) {
     const [episodes, setEpisodes] = useState(episodesList)
